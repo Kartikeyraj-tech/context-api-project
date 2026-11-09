@@ -1,0 +1,22 @@
+body {
+  margin: 0;                 /* page ke chaaron taraf ka default gap hata deta hai */
+  background-image: url('https://images.pexels.com/...jpg'); /* background image ka link */
+  background-size: cover;    /* image poori screen ko bhar degi, chahe chhoti ho ya badi */
+  background-position: center; /* image screen ke beech mein rahegi */
+  background-repeat: no-repeat; /* image ek hi baar dikhegi, repeat nahi hogi */
+  background-attachment: fixed; /* scroll karne par bhi image apni jagah par rahegi */
+  background-color: black;   /* image load na ho to peeche black rahega */
+  color: white;              /* saara text white dikhega */
+  display: block;            /* elements ko normal top-to-bottom layout mein rakhega */
+  min-height: 100vh;         /* body kam se kam poori screen height ki hogi */
+  text-align: center;        /* text aur elements ko center mein align karega */
+  font-size: 32px;           /* poore page ka default font size 32px hoga (bahut bada) */
+}
+
+h2 {
+  font-size: 32px;           /* heading (KK's, Login) ka font size 32px hoga */
+}
+
+input, button {
+  font-size: 32px;           /* input boxes aur Submit button ka font size 32px hoga */
+}
